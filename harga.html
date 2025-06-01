@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css" />
+    <title>FreshClean Laundry_v2</title>
+    <!-- link favicon -->
+    <link rel="shortcut icon" href="fc-logo.png" type="image/x-icon" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div
+        class="container-fluid d-flex justify-content-between align-items-center"
+      >
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img
+            src="fc-logo.png"
+            alt="Logo FreshClean Laundry"
+            height="24"
+            class="me-2"
+          />
+          <span class="fw-bold">FreshClean</span>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#about">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#service">Layanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="harga.html">Harga</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#testi">Testimoni</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galeri">Galeri</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-none d-lg-block">
+          <a href="harga.html#pesan" class="btn btn-primary">Pesan Sekarang!</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- bagian harga -->
+    <section class="py-5 bg-light" id="hrg">
+        <div class="container">
+          <h2 class="text-center mb-5">Daftar Harga Layanan</h2>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      
+            <!-- Layanan Harian -->
+            <div class="col">
+              <div class="card h-100 shadow-sm hover-shadow">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Layanan Harian</h5>
+                  <ul class="list-unstyled small">
+                    <li class="d-flex justify-content-between border-bottom pb-1 mb-2"><span class="me-3">Cuci Kering & Lipat</span><span>Rp7.000/kg</span></li>
+                    <li class="d-flex justify-content-between border-bottom pb-1 mb-2"><span class="me-3">Cuci Kering & Setrika</span><span>Rp10.000/kg</span></li>
+                    <li class="d-flex justify-content-between border-bottom pb-1 mb-2"><span class="me-3">Setrika Saja</span><span>Rp5.000/kg</span></li>
+                    <li class="d-flex justify-content-between border-bottom pb-1 mb-2"><span class="me-3">Laundry Express (1 Hari)</span><span>+Rp5.000/kg</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Layanan Rumah Tangga -->
+            <div class="col">
+              <div class="card h-100 shadow-sm hover-shadow">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Layanan Rumah Tangga</h5>
+                  <ul class="list-unstyled small">
+                    <li class="d-flex justify-content-between border-bottom pb-1 mb-2"><span class="me-3">Bed Cover Single</span><span>Rp7.000</span></li>
+                    <li class="d-flex justify-content-between border-bottom pb-1 mb-2"><span class="me-3">Bed Cover King/Queen</span><span>Rp30.000</span></li>
+                    <li class="d-flex justify-content-between border-bottom pb-1 mb-2"><span class="me-3">Selimut</span><span>Rp25.000</span></li>
+                    <li class="d-flex justify-content-between border-bottom pb-1 mb-2"><span class="me-3">Gorden (per meter)</span><span>Rp10.000</span></li>
+                    <li class="d-flex justify-content-between border-bottom pb-1 mb-2"><span class="me-3">Karpet Kecil</span><span>Rp30.000</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Perawatan Khusus -->
+            <div class="col">
+              <div class="card h-100 shadow-sm hover-shadow">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Perawatan Khusus</h5>
+                  <ul class="list-unstyled small">
+                    <li class="d-flex justify-content-between border-bottom pb-1 mb-2"><span class="me-3">Cuci Sepatu Reguler</span><span>Rp25.000/pasang</span></li>
+                    <li class="d-flex justify-content-between border-bottom pb-1 mb-2"><span class="me-3">Deep Clean Sepatu</span><span>Rp40.000/pasang</span></li>
+                    <li class="d-flex justify-content-between border-bottom pb-1 mb-2"><span class="me-3">Cuci Tas</span><span>Rp30.000–50.000</span></li>
+                    <li class="d-flex justify-content-between border-bottom pb-1 mb-2"><span class="me-3">Cuci Jaket/Coat</span><span>Rp25.000–35.000</span></li>
+                    <li class="d-flex justify-content-between border-bottom pb-1 mb-2"><span class="me-3">Cuci Boneka</span><span>Rp20.000–35.000</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Layanan Tambahan -->
+            <div class="col">
+              <div class="card h-100 shadow-sm hover-shadow">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Layanan Tambahan</h5>
+                  <ul class="list-unstyled small">
+                    <li class="d-flex justify-content-between border-bottom pb-1 mb-2"><span class="me-3">Pewangi Premium</span><span>Gratis</span></li>
+                    <li class="d-flex justify-content-between border-bottom pb-1 mb-2"><span class="me-3">Antar-Jemput Laundry</span><span>Gratis*</span></li>
+                    <li class="d-flex justify-content-between border-bottom pb-1 mb-2"><span class="me-3">Express 6 Jam</span><span>Rp30.000–50.000</span></li>
+                    <li class="d-flex justify-content-between border-bottom pb-1 mb-2"><span class="me-3">Cuci Jaket/Coat</span><span>+Rp10.000/kg</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Catatan dan Gambar -->
+            <div class="col">
+              <div class="card h-100 shadow-sm hover-shadow text-center ">
+                <div class="card-body">
+                  <small class="d-block mb-3 text-white">*Gratis antar-jemput untuk jarak maksimal 5km atau minimal order Rp50.000.</small>
+                  <img src="isi/delivery.png" alt="Delivery" class="img-fluid" style="max-height: 150px;">
+                </div>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+      </section>
+      
+      
+    <!-- pesan -->
+    <section class="py-5 bg-pesan" id="pesan">
+        <div class="container">
+          <div class="row align-items-center g-4">
+            <!-- Kolom Teks -->
+            <div class="col-lg-6 text-center text-lg-start">
+              <h1 class="fw-bold text-white">Cucian rumahmu sudah numpuk?</h1>
+              <p class="lead text-white">Tak perlu terlalu rajin. Jangan ragu untuk menghubungi kami!</p>
+            </div>
+      
+            <!-- Kolom Form -->
+            <div class="col-lg-6">
+              <div class="card-pesan shadow p-4">
+                <h2 class="text-center text-white mb-4">Isi Form Pesanan!</h2>
+                <form>
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <input type="text" class="form-control form-control-transparent" id="namalengkap" placeholder="Nama Lengkap" required>
+                    </div>
+                    <div class="col-md-6">
+                      <input type="text" class="form-control form-control-transparent" id="No" placeholder="No Whatsapp" required>
+                    </div>
+                    <div class="col-12">
+                      <input type="text" class="form-control form-control-transparent" id="Alamat" placeholder="Alamat" required>
+                    </div>
+                    <div class="col-md-6 text-white">
+                      <label for="tanggallahir" class="form-label">Tanggal Jemput</label>
+                      <input type="date" class="form-control form-control-transparent" id="tanggallahir" required>
+                    </div>
+                    <div class="col-md-6 text-white">
+                      <label for="tipe" class="form-label">Tipe Layanan</label>
+                      <select class="form-select custom-option-color" id="tipe" required>
+                        <option selected disabled>Pilih Layanan</option>
+                        <option>Daily Kiloan</option>
+                        <option>Cuci & Setrika</option>
+                        <option>Laundry Karpet</option>
+                        <option>Laundry Sepatu</option>
+                        <option>Laundry Tas</option>
+                        <option>Laundry Boneka</option>
+                        <option>Laundry Sprei</option>
+                        <option>Laundry Bedcover</option>
+                        <option>Laundry Gordyn</option>
+                      </select>
+                    </div>
+                    <div class="col-12">
+                      <input type="text" class="form-control form-control-transparent" id="pesan" placeholder="Pesan Tambahan">
+                    </div>
+                  </div>
+                  <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-primary px-5">Kirim Pesanan</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- galeri foto -->
+    <!-- Galeri Foto -->
+<section class="py-5 bg-light" id="galeri">
+    <div class="container">
+      <h2 class="text-center mb-4">Galeri FreshClean Laundry</h2>
+      <div class="row g-3">
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="gl/g2.jpeg" class="img-fluid rounded shadow-sm zoom-hover" alt="Galeri 1">
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="gl/g5.jpeg" class="img-fluid rounded shadow-sm zoom-hover" alt="Galeri 2">
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="gl/g1.jpeg" class="img-fluid rounded shadow-sm zoom-hover" alt="Galeri 3">
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="gl/g3.jpeg" class="img-fluid rounded shadow-sm zoom-hover" alt="Galeri 4">
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="gl/g4.jpeg" class="img-fluid rounded shadow-sm zoom-hover" alt="Galeri 5">
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="gl/g7.jpeg" class="img-fluid rounded shadow-sm zoom-hover" alt="Galeri 6">
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <img src="gl/g6.jpeg" class="img-fluid rounded shadow-sm zoom-hover" alt="Galeri 7">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer class="footer-custom text-white py-3" id="contact">
+    <div class="container">
+     
+      <!-- Footer Bottom -->
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <div class="d-flex align-items-center mb-3 mb-md-0">
+          <img src="fc-logo.png" alt="fc-logo" style="width: 40px;" class="me-2">
+          <span class="fw-bold">FreshClean Laundry</span>
+        </div>
+        <span class="small">Designed by: sal.mann10</span>
+      </div>
+    </div>
+  </footer>  
+
+
+      
+      
+
+  </body>
+</html>

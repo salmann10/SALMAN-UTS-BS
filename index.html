@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css" />
+    <title>FreshClean Laundry_v2</title>
+    <!-- link favicon -->
+    <link rel="shortcut icon" href="fc-logo.png" type="image/x-icon">
+     <!-- font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+       href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+       rel="stylesheet"
+     />
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <div class="container-fluid d-flex justify-content-between align-items-center">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="fc-logo.png" alt="Logo FreshClean Laundry" height="24" class="me-2">
+          <span class="fw-bold">FreshClean</span>
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">Tentang Kami</a></li>
+            <li class="nav-item"><a class="nav-link" href="#service">Layanan</a></li>
+            <li class="nav-item"><a class="nav-link" href="harga.html">Harga</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testi">Testimoni</a></li>
+            <li class="nav-item"><a class="nav-link" href="harga.html#galeri">Galeri</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="d-none d-lg-block">
+          <a href="harga.html#pesan" class="btn btn-primary">Pesan Sekarang!</a>
+        </div>
+        
+      </div>
+    </nav>
+
+    <!-- hero -->
+    <section class="home py-5" id="home">
+      <div class="container">
+        <div class="row justify-content-center text-start">
+          <div class="col-lg-10">
+            <h1 class="display-5 fw-bold mb-4">Selamat datang di FreshClean Laundry!</h1>
+            <p class="lead mb-4">
+              Capek liat cucian numpuk? Tenang, kamu nggak sendiri kok! Di FreshClean Laundry, kami hadir buat kamu yang pengen hidup lebih ringan dan wangi setiap hari. Tinggal antar atau duduk manis di rumah, cucian kamu kami urus sampai mulus!
+            </p>
+            <ul class="list-unstyled ;">
+              <li class="mb-2">
+                <strong>Super Cepat & Tepat Waktu</strong> – Pakaian kembali dalam waktu singkat!
+              </li>
+              <li class="mb-2">
+                <strong>Pembersihan Maksimal</strong> – Kotoran, noda, sampe bau gak bakalan laku di sini.
+              </li>
+              <li class="mb-2">
+                <strong>Pakaian Tetap Awet</strong> – Kami treat pakaian kamu dengan penuh cinta.
+              </li>
+              <li class="mb-4">
+                <strong>Harga Friendly</strong> – Kualitas top, tapi harganya gak bikin kantong bolong.
+              </li>
+            </ul>
+            <a href="#about" class="btn btn-warning btn-lg">Selengkapnya!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- tentang kami -->
+    <section class="about py-5" id="about">
+  <div class="container">
+    <h1 class="text-left mb-5">Tentang Kami</h1>
+    <!-- Bagian Atas -->
+    <div class="row align-items-center mb-5">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <img src="gb-about.png" alt="Tentang FreshClean" class="img-fluid rounded">
+      </div>
+      <div class="col-lg-6">
+        <h2>Siapa sih FreshClean Laundry?</h2>
+        <p>
+          FreshClean Laundry adalah layanan laundry kekinian yang hadir buat
+          kamu yang nggak mau ribet urusan cucian. Kami ngerti banget di
+          tengah kesibukan harian, nyuci dan nyetrika itu bisa jadi hal paling
+          malesin. Nah, di sinilah kami masuk!
+        </p>
+      </div>
+    </div>
+
+    <!-- Bagian Bawah (Slider) -->
+    <div id="aboutCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner text-center">
+
+        <div class="carousel-item active">
+          <div class="p-4  shadow-sm">
+            <h2>Misi Kami</h2>
+            <p>
+              Bikin hidup kamu lebih ringan dan wangi. Dari baju harian sampai bed
+              cover jumbo, kami siap bantu. Karena kami percaya, baju bersih itu
+              bukan cuma soal tampilan, tapi juga rasa nyaman dan percaya diri.
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel-item  ">
+          <div class="p-4 shadow-sm">
+            <h2>Kenapa Dipercaya?</h2>
+            <ul class="list-unstyled ">
+              <li>Sudah dipercaya ratusan pelanggan di sekitar Kota Pekalongan</li>
+              <li>Tim profesional & terlatih</li>
+              <li>Proses cepat, rapi, dan selalu wangi</li>
+              <li>Menggunakan deterjen ramah lingkungan</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="p-4  shadow-sm">
+            <h2>Kami Bukan Sekadar Laundry</h2>
+            <p>
+              FreshClean bukan cuma tempat cuci baju — kami partner hidup kamu
+              yang selalu siap bantu di balik layar. Selalu rapi, selalu tepat
+              waktu, dan pastinya bikin hari kamu lebih enak dijalani.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Navigasi Carousel -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+</section>
+<section class="layanan py-5" id="service">
+  <div class="container">
+    <h1 class="text-left mb-5">LAYANAN</h1>
+
+    
+
+    <!-- Kelompok 1: Layanan Harian -->
+    <h3 class="mb-4">Layanan Harian</h3>
+    <div class="row g-4 mb-5">
+      <div class="col-6 col-md-3">
+        <div class="card text-center h-100 shadow-sm">
+          <img src="isi/laundry-machine.png" class="card-img-top p-3" alt="daily kiloan" />
+          <div class="card-layanan">
+            <h5 class="card-title">Daily Kiloan</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card text-center h-100 shadow-sm">
+          <img src="isi/setrika.png" class="card-img-top p-3" alt="cuci & setrika" />
+          <div class="card-layanan">
+            <h5 class="card-title">Cuci & Setrika</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card text-center h-100 shadow-sm">
+          <img src="isi/kilat.png" class="card-img-top p-3" alt="cuci kilat" />
+          <div class="card-layanan">
+            <h5 class="card-title">Cuci Kilat</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card text-center h-100 shadow-sm">
+          <img src="isi/karpet.png" class="card-img-top p-3" alt="laundry karpet" />
+          <div class="card-layanan">
+            <h5 class="card-title">Laundry Karpet</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Kelompok 2: Layanan Barang Khusus -->
+    <h3 class="mb-4">Layanan Barang Khusus</h3>
+    <div class="row g-4 mb-5">
+      <div class="col-6 col-md-3">
+        <div class="card text-center h-100 shadow-sm">
+          <img src="isi/shoes.png" class="card-img-top p-3" alt="laundry sepatu" />
+          <div class="card-layanan">
+            <h5 class="card-title">Laundry Sepatu</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card text-center h-100 shadow-sm">
+          <img src="isi/tas.png" class="card-img-top p-3" alt="laundry tas" />
+          <div class="card-layanan">
+            <h5 class="card-title">Laundry Tas</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card text-center h-100 shadow-sm">
+          <img src="isi/boneka.png" class="card-img-top p-3" alt="laundry boneka" />
+          <div class="card-layanan">
+            <h5 class="card-title">Laundry Boneka</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="card text-center h-100 shadow-sm">
+          <img src="isi/sprei.png" class="card-img-top p-3" alt="laundry sprei" />
+          <div class="card-layanan">
+            <h5 class="card-title">Laundry Sprei</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Kelompok 3: Layanan Rumah Tangga -->
+    <h3 class="mb-4">Layanan Rumah Tangga</h3>
+    <div class="row g-4 mb-4">
+      <div class="col-6 col-md-4">
+        <div class="card text-center h-100 shadow-sm">
+          <img src="isi/bedcover.png" class="card-img-top p-3" alt="laundry bedcover" />
+          <div class="card-layanan">
+            <h5 class="card-title">Laundry Bedcover</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4">
+        <div class="card text-center h-100 shadow-sm">
+          <img src="isi/bantal.png" class="card-img-top p-3" alt="laundry sarung bantal" />
+          <div class="card-layanan">
+            <h5 class="card-title">Laundry Sarung Bantal</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4">
+        <div class="card text-center h-100 shadow-sm">
+          <img src="isi/gordyn.png" class="card-img-top p-3" alt="laundry gordyn" />
+          <div class="card-layanan">
+            <h5 class="card-title">Laundry Gordyn</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <a href="harga.html#pesan" class="btn btn-warning btn-lg">Pesan Sekarang!</a>
+    </div>
+  </div>
+</section>
+
+<!-- testimoni -->
+<style>
+  
+</style>
+
+<section class="testimoni py-4 bg-light" id="testi">
+  <div class="container">
+    <div class="row g-3 justify-content-center">
+      <h1 class="text-left mb-5">TESTIMONI</h1>
+
+
+      <!-- Testimonial 1 -->
+      <div class="col-md-6">
+        <div class="card card-horizontal shadow-sm d-flex flex-row align-items-start p-2">
+          <img src="ts/magwayer.jpeg" class="me-3 rounded" alt="fc-logo">
+          <div>
+            <h6 class="mb-1">HARRY MAGUWAYER</h6>
+            <p class="mb-1">"Baju gue masuk ke FreshClean, keluar kayak baru dari iklan pewangi. Jujurly, pas gue buka plastiknya, langsung pengen ngelamar laundry-nya. Ini sih bukan cuma laundry, ini mah pengalaman spiritual.."</p>
+            <small class="text-muted">-aktor indosiar</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="col-md-6">
+        <div class="card card-horizontal shadow-sm d-flex flex-row align-items-start p-2">
+          <img src="ts/mudrik.jpeg" class="me-3 rounded" alt="">
+          <div>
+            <h6 class="mb-1">EL DEAR GOD</h6>
+            <p class="mb-1">"Setrikaannya licin banget, nyaris bikin gue nggak pengen pake bajunya. Takut kusut. Tiap liat lipatan baju dari FreshClean, gue langsung sadar: tangan gue nggak akan bisa se-estetik ini. Makasih udah bikin hidup gue keliatan lebih rapi dari kenyataannya"</p>
+            <span>-filsuf olahraga."</p>
+            <small class="text-muted">-filsuf olahraga</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="col-md-6">
+        <div class="card card-horizontal shadow-sm d-flex flex-row align-items-start p-2">
+          <img src="ts/antony.jpeg" class="me-3 rounded" alt="">
+          <div>
+            <h6 class="mb-1">ANTONY GOAT</h6>
+            <p class="mb-1">"Titip cucian, pulangnya baju jadi wangi, hidup jadi lebih tenang. Serius, efeknya kayak meditasi. Apalagi laundry express-nya — gue bisa dapet baju bersih sebelum masalah hidup nyampe ke gue Mantap."</p>
+            <small class="text-muted">-dewa football</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 4 -->
+      <div class="col-md-6">
+        <div class="card card-horizontal shadow-sm d-flex flex-row align-items-start p-2">
+          <img src="ts/vini.jpeg" class="me-3 rounded" alt="">
+          <div>
+            <h6 class="mb-1">PADUKA VINI JR.</h6>
+            <p class="mb-1">"Laundry-nya cepet, bersih, wangi. Tapi kenapa hati ini masih nggak bisa bersih dari bayang-bayang dia? Untung FreshClean bisa move-on-in baju gue walau hati gue stuck di chat terakhir."</p>
+            <small class="text-muted">-penulis buku tabungan</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 5 -->
+      <div class="col-md-6">
+        <div class="card card-horizontal shadow-sm d-flex flex-row align-items-start p-2">
+          <img src="ts/sireng.jpeg" class="me-3 rounded" alt="">
+          <div>
+            <h6 class="mb-1">SIR B. CHARLTON</h6>
+            <p class="mb-1">"Pertama kali ke sini karena promo. Kedua kali karena bajunya wangi. Ketiga kali karena kangen senyum mbaknya pas ambil laundry. Yang keempat, gue belum berani. Nanti dikira modus."</p>
+            <small class="text-muted">-kuli proyek dadakan</small>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- footer -->
+
+<footer class="footer-custom text-white py-3" id="contact">
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- Alamat -->
+      <div class="col-md-4">
+        <h5 class="text-uppercase mb-3">Alamat</h5>
+        <p>JL. Sulawesi Kergon Gg.5a/16<br>
+          Kelurahan Birmingham, Kecamatan East London<br>
+          Kota London, Prov. UK Utara, United Kingdom.</p>
+      </div>
+
+      <!-- Tentang FreshClean -->
+      <div class="col-md-4">
+        <h5 class="text-uppercase mb-3">FreshClean Laundry</h5>
+        <p>FreshClean Laundry adalah layanan laundry kekinian yang hadir buat kamu yang nggak mau ribet urusan cucian. Kami ngerti banget, di tengah kesibukan harian, nyuci dan nyetrika bisa jadi hal paling malesin. Nah, di sinilah kami masuk!</p>
+      </div>
+
+      <!-- Contact Us -->
+      <div class="col-md-4">
+        <h5 class="text-uppercase mb-3">Contact Us</h5>
+        <ul class="list-unstyled">
+          <li><a href="http://wa.me/6287843155717" class="text-white text-decoration-none"> 0878-4315-5717</a></li>
+          <li><a href="#" class="text-white text-decoration-none"> 0812-3456-78</a></li>
+          <li><a href="https://www.instagram.com/sal.mann10" class="text-white text-decoration-none">@fresh.clean</a></li>
+          <li><a href="https://www.facebook.com" class="text-white text-decoration-none"> Fresh Clean Laundry</a></li>
+          <li><a href="mailto:freshclean@hoax.com" class="text-white text-decoration-none"> freshclean@hoax.com</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center mt-4 pt-4 border-top border-secondary">
+      <div class="d-flex align-items-center mb-3 mb-md-0">
+        <img src="fc-logo.png" alt="fc-logo" style="width: 40px;" class="me-2">
+        <span class="fw-bold">FreshClean Laundry</span>
+      </div>
+      <span class="small">Designed by: sal.mann10</span>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+    
+    
+    
+</body>
+</html>
